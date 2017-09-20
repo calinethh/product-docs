@@ -62,8 +62,8 @@ If we can query the database and expose the following fields, we can avoid using
 #. Uploaded_variation : Identifier of uploaded variant. This will be an rsID if one exists, otherwise it will be a "." As a reminder, the rsID is the reference SNP ID. For example, rs2383206. These represent the location of a certain amino acid (A, C, G, or T) on a chromosome as well as the identification of that amino acid and what the change is from the reference genome.
 #. Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
 #. Allele : The variant allele used to calculate the consequence
-#. Gene : Stable ID of affected gene
-#. Feature : Stable ID of feature
+#. Gene : Stable ID of affected gene (Ensembl gene ID or Entrez ID)
+#. Feature : Stable ID of feature (Ensembl or Entrez ID for feature eg transcript)
 #. Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
 #. Consequence : Consequence type
 #. cDNA_position : Relative position of base pair in cDNA sequence
