@@ -1,0 +1,10 @@
+CrossMap API
+!!!!!!!!!!!!!!
+
+'CrossMap <http://crossmap.sourceforge.net/>'_ converts the genome coordinates of annotated files for files mapped and annotated using hg19(=GRCh37) to those of hg38(=GCRh38). Currently used by Ensembl for genome coordinate conversion. Current version is 0.2.7 released on 2017-06-09.
+Installation files are 'here <https://drive.google.com/open?id=0BwNqnzoUbIiWUC05QVNTUXBvTDQ>'_
+
+Input formats accepted:
+* SAM/BAM, Wiggle/BigWig, BED, GFF/GTF, VCF
+
+Output formats are as input formats.
