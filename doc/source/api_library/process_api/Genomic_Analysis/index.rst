@@ -24,13 +24,13 @@ The universal process steps are shown below as follows:
 
 If the reference is GRCh37, GRCh37lite, hg19, hs375, or b37, it will need to be remapped to the current reference using the following process:
 
-* 
+* CrossMap
 
 If the reference genome is GRCh38, continue as follows:
 
 #. Import data into Galaxy and run the following workflows:
 
-* 
+* W1_VCF to VEP (eg 1) 
 
 **BAM (SEQ) AND BED (INDEX) PROCESS**
 
